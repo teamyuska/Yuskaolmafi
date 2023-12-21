@@ -3,4 +3,4 @@ tgcrypto
 pytube
 sqlalchemy
 psycopg2
-youtube-search-python
+youtube-search-python 1.6.6
