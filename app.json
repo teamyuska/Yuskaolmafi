@@ -1,41 +1,20 @@
 {
-    "name": "SongPlayRoBot",
-    "logo": "https://telegra.ph/file/cb7b0aead06c96955323e.jpg",
-    "description": "Grabs song from yt and sends it to telegram by @TamilBots",
-    "env": {
-        "API_ID": {
-            "description": "7948888",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "48285ac512613754f7913b310e884222",
-            "required": true
-        },
-        "BOT_TOKEN": {
-            "description": "6746110732:AAEqr0qHkncbPANl4sIyY3Zsrz08qg88tkc",
-            "required": true
-        },
-        "OWNER_ID": {
-            "description": "6033604536",
-            "required": true
-    },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "addons": [
-        {
-            "plan": "heroku-postgresql",
-            "options": {
-                "version": "12"
-            }
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+  "name": "telegram-song-downloader-bot",
+  "description": "YouTube Music Downloader Bot for Telegram. ",
+	"stack": "container",
+  "repository": "https://github.com/sanila2007/Telegram-Song-Downloader-Bot",
+  "keywords": [
+  "python",
+  "chatbot",
+  "telegrambot"
+  ],
+  "website": "https://github.com/sanila2007/Telegram-Song-Downloader-Bot",
+  "success_url": "https://t.me/songdownload597_bot",
+  "env": {
+    "TOKEN": {
+      "description": "Take the token of your bot",
+      "value": "",
+      "required": true
     }
+  }
 }
