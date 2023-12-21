@@ -4,21 +4,20 @@
     "description": "Grabs song from yt and sends it to telegram by @TamilBots",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org.",
+            "description": "7948888",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org.",
+            "description": "48285ac512613754f7913b310e884222",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Get this value by making a bot from @BotFather.",
+            "description": "6746110732:AAEqr0qHkncbPANl4sIyY3Zsrz08qg88tkc",
             "required": true
         },
         "OWNER_ID": {
-            "description": "Your telegram user id.",
+            "description": "6033604536",
             "required": true
-        }
     },
     "buildpacks": [
         {
