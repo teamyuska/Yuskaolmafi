@@ -1,1 +1,1 @@
-worker: python3 -m SongPlayRoBot
+worker: python3 -m Songazerbot
